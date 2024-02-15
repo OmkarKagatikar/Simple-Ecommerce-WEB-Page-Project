@@ -1,0 +1,18 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid cornflowerblue;
+    border-top: 20px solid chartreuse;
+    animation: spin 2s ease-in 1s infinite normal;
+
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
